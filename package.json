@@ -1,25 +1,22 @@
 {
-  "name": "instantsearch",
-  "version": "1.0.0",
-  "description": "A real-time search application",
-  "main": "app.js",
+  "name": "InstantSearch",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "meteor run"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/im-liang/InstantSearch.git"
-  },
-  "author": "Jie Liang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/im-liang/InstantSearch/issues"
-  },
-  "homepage": "https://github.com/im-liang/InstantSearch#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "ejs": "^2.5.6",
-    "express": "^4.15.3",
-    "mongodb": "^2.2.30"
+    "babel-runtime": "^6.20.0",
+    "meteor-node-stubs": "~0.2.4"
+  },
+  "devDependencies": {
+    "@meteorjs/eslint-config-meteor": "^1.0.5",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
